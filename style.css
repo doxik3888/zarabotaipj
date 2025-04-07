@@ -42,7 +42,7 @@ header {
 .info {
   padding: 20px;
   font-size: 18px;
-  line-height: 1.7;
+
 }
 
 .text-on-white {
@@ -60,6 +60,21 @@ footer {
   margin-top: 30px;
 }
 
+.info-container-cake {
+  background-color: #6b9080;
+  width: 50%;
+  margin: 0 auto 30px auto;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.cake{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: 40vw ;
+}
+
 /* Media queries for responsiveness */
 @media screen and (max-width: 1024px) {
   .head-btn {
@@ -69,6 +84,14 @@ footer {
 
   .info-container {
     width: 85%;
+  }
+
+  .info-container-cake {
+    width: 85%;
+  }
+
+  .cake{
+    width: 60vw;
   }
 
   .text-on-white {
@@ -86,6 +109,14 @@ footer {
 
   .info-container {
     width: 90%;
+  }
+
+  .info-container-cake {
+    width: 90%;
+  }
+
+  .cake{
+    width: 60vw;
   }
 
   .info {
@@ -110,6 +141,16 @@ footer {
     width: 95%;
     border-radius: 10px;
     margin-bottom: 20px;
+  }
+
+  .info-container-cake {
+    width: 95%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .cake{
+    width: 80vw;
   }
 
   .info {

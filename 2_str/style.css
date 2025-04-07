@@ -19,7 +19,7 @@ header {
 
 .head-btn {
   font-size: 16px;
-  padding: 1vw 1vh ;
+  padding: 1vw 1vh;
   width: 20%;
   height: 10vh;
   border: none;
@@ -55,7 +55,7 @@ header {
   border-bottom-left-radius: 10px;
   margin-top: 3vh;
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -82,8 +82,8 @@ header {
 }
 
 .leaf {
-  width: 80%;
-  min-height: 80vh;
+  width: 60vw;
+  min-height: 75vh;
   background-color: #6b9080;
   border: 4px solid #312509;
   border-radius: 10px;
@@ -106,8 +106,8 @@ header {
 
 .leaf-text {
   padding: 20px;
-  font-size: 18px;
-  line-height: 1.7;
+  font-size: 20px;
+
 }
 
 footer {
@@ -164,7 +164,7 @@ footer {
   }
 
   .leaf {
-    width: 100%;
+    width: 87vw;
     margin-top: 20px;
   }
 
@@ -207,7 +207,12 @@ footer {
   }
 
   .text-on-white {
-    width: 95%;
+    width: 87vw;
     font-size: 1.5rem;
+  }
+  
+  .leaf {
+    width: 78vw;
+    margin-top: 20px;
   }
 }

@@ -41,7 +41,7 @@ header {
 .info {
   padding: 20px;
   font-size: 18px;
-  line-height: 1.7;
+
 }
 
 .text-on-white {
@@ -69,6 +69,7 @@ footer {
   .info-container {
     width: 85%;
   }
+  
 
   .text-on-white {
     width: 85%;
